@@ -8,7 +8,7 @@
 */
 
 /* Loading */
-.top {
+.tops {
     position: relative;
     display: inline-block;
     width: 50px;
@@ -16,19 +16,19 @@
     border-radius: 50%;
     margin: 30px;
 }
-.top.a1 , .top.a1:before{
+.tops.a1 , .tops.a1:before{
     background: #d21f1f;
     animation-delay: 0s;
 }
-.top.a2, .top.a2:before{
+.tops.a2, .tops.a2:before{
     background: #69c820;
     animation-delay: 0.2s;
 }
-.top.a3, .top.a3:before{
+.tops.a3, .tops.a3:before{
     background: #ceb32a;
     animation-delay: 0.4s;
 }
-.top.a4, .top.a4:before{
+.tops.a4, .tops.a4:before{
     background: #306bb3;
     animation-delay: 0.6s;
 }
