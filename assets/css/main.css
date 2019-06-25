@@ -32,7 +32,7 @@
     background: #306bb3;
     animation-delay: 0.6s;
 }
-.top:before{
+.tops:before{
     content: "";
     display: block;
     position: absolute;
