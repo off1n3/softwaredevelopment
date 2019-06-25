@@ -7,53 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Loading */
-.tops {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 30px;
-}
-.tops.a1 , .tops.a1:before{
-    background: #d21f1f;
-    animation-delay: 0s;
-}
-.tops.a2, .tops.a2:before{
-    background: #69c820;
-    animation-delay: 0.2s;
-}
-.tops.a3, .tops.a3:before{
-    background: #ceb32a;
-    animation-delay: 0.4s;
-}
-.tops.a4, .tops.a4:before{
-    background: #306bb3;
-    animation-delay: 0.6s;
-}
-.tops:before{
-    content: "";
-    display: block;
-    position: absolute;
-    left: -5px;
-    top: -5px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    animation: ani 2s infinite ease-in;
-}
-@keyframes ani{
-    0%{
-        transform: scale(0.5);
-        opacity: 1;
-    }
-    100%{
-        transform: scale(2);
-        opacity: 0;
-    }
-}
-/* Loading */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
