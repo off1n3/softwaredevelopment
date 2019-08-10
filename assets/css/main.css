@@ -7,7 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -148,12 +147,12 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-	a {
+	nav ul li a, .inner a, footer a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: inset 2px rgb(163, 22, 22);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -161,6 +160,19 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
+
+		.logo a {
+			-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			text-decoration: none;
+			color: inherit;
+		}
+	
+			.logo a:hover {
+				border-bottom-color: transparent;
+			}
 
 	strong, b {
 		color: #ffffff;
@@ -1213,6 +1225,14 @@ input, select, textarea {
 		}
 
 /* Header */
+
+		/* TEXT SOTFWARE DEVELOPMENT STYLE*/
+
+		.title p{
+			font-size: 100px 
+		}
+
+		/* TEXT SOFTWARE DEVELOPMENT STYLE */
 
 	#header {
 		display: -moz-flex;
