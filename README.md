@@ -1,8 +1,9 @@
 # Software Development | GitHub
+![REPOSIZE](https://img.shields.io/github/repo-size/off1n3/softwaredevelopment?label=REPOSITORY%20SIZE&style=for-the-badge)
 
-> Nuestro repositorio contiene nuestra Página Web, BOT Discord (Creando / Subiendo) y más cosas que vienen.
+Únete a nuestro servidor de discordia.
 
+![Discord](https://discordapp.com/api/guilds/524815945856974858/widget.png?style=banner2)
 
-![Discord](https://discordapp.com/api/guilds/524815945856974858/widget.png)
 
 
